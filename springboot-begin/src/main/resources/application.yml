@@ -1,0 +1,26 @@
+#普通数据
+name: zhangsan
+#记住冒号后面有空格，分层（下面person这个例子,第一种用的比较多）
+person:
+ name: zhangsan
+ age: 14
+
+#person: {name: zhangsan,age: 14}
+
+#配置数据、集合(第一种用的多)
+city:
+  - beijing
+  - tianjin
+  - chongqing
+  - shanghai
+#city: [beijing,tianjin,chongqing,shanghai]
+
+#配置数据、集合(对象数据)
+#student:
+#  - name: tom
+#    age: 18
+#    addr: beijing
+#  - name: jerry
+#    age: 18
+#    addr: tianjin
+#student: [{name: tom,age: 18,addr: beijing},{name: jerry,age: 18,addr: tianjin}]

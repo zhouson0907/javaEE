@@ -1,4 +1,4 @@
-package com.zhouson.springbootfast.controller;
+package com.zhouson.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @create 2019-06-23 11:34
  */
 @Controller
-public class controller {
+public class FastController {
     //获取配置文件中的"name"信息
-    @Value("${name}")
+    @Value("${person.name}")
     private String name;
+
     @RequestMapping("/quick2")
     @ResponseBody
     public String quick2(){
